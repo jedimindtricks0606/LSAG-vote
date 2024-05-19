@@ -1,0 +1,504 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "uint8",
+						"name": "_prefix",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_x",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_aa",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_bb",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_pp",
+						"type": "uint256"
+					}
+				],
+				"name": "deriveY",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_x1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_y1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_x2",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_y2",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_aa",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_pp",
+						"type": "uint256"
+					}
+				],
+				"name": "ecAdd",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_x",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_y",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_pp",
+						"type": "uint256"
+					}
+				],
+				"name": "ecInv",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_k",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_x",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_y",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_aa",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_pp",
+						"type": "uint256"
+					}
+				],
+				"name": "ecMul",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_x1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_y1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_x2",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_y2",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_aa",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_pp",
+						"type": "uint256"
+					}
+				],
+				"name": "ecSub",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_base",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_exp",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_pp",
+						"type": "uint256"
+					}
+				],
+				"name": "expMod",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_x",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_pp",
+						"type": "uint256"
+					}
+				],
+				"name": "invMod",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_x",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_y",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_aa",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_bb",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_pp",
+						"type": "uint256"
+					}
+				],
+				"name": "isOnCurve",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_x",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_y",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_z",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_pp",
+						"type": "uint256"
+					}
+				],
+				"name": "toAffine",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"author": "Witnet Foundation",
+			"details": "Library providing arithmetic operations over elliptic curves.",
+			"methods": {
+				"deriveY(uint8,uint256,uint256,uint256,uint256)": {
+					"details": "Derives the y coordinate from a compressed-format point x.",
+					"params": {
+						"_aa": "constant of curve",
+						"_bb": "constant of curve",
+						"_pp": "the modulus",
+						"_prefix": "parity byte (0x02 even, 0x03 odd)",
+						"_x": "coordinate x"
+					},
+					"return": "y coordinate y"
+				},
+				"ecAdd(uint256,uint256,uint256,uint256,uint256,uint256)": {
+					"details": "Add two points (x1, y1) and (x2, y2) in affine coordinates.",
+					"params": {
+						"_aa": "constant of the curve",
+						"_pp": "the modulus",
+						"_x1": "coordinate x of P1",
+						"_x2": "coordinate x of P2",
+						"_y1": "coordinate y of P1",
+						"_y2": "coordinate y of P2"
+					},
+					"return": "(qx, qy) = P1+P2 in affine coordinates"
+				},
+				"ecInv(uint256,uint256,uint256)": {
+					"details": "Calculate inverse (x, -y) of point (x, y).",
+					"params": {
+						"_pp": "the modulus",
+						"_x": "coordinate x of P1",
+						"_y": "coordinate y of P1"
+					},
+					"return": "(x, -y)"
+				},
+				"ecMul(uint256,uint256,uint256,uint256,uint256)": {
+					"details": "Multiply point (x1, y1, z1) times d in affine coordinates.",
+					"params": {
+						"_aa": "constant of the curve",
+						"_k": "scalar to multiply",
+						"_pp": "the modulus",
+						"_x": "coordinate x of P1",
+						"_y": "coordinate y of P1"
+					},
+					"return": "(qx, qy) = d*P in affine coordinates"
+				},
+				"ecSub(uint256,uint256,uint256,uint256,uint256,uint256)": {
+					"details": "Substract two points (x1, y1) and (x2, y2) in affine coordinates.",
+					"params": {
+						"_aa": "constant of the curve",
+						"_pp": "the modulus",
+						"_x1": "coordinate x of P1",
+						"_x2": "coordinate x of P2",
+						"_y1": "coordinate y of P1",
+						"_y2": "coordinate y of P2"
+					},
+					"return": "(qx, qy) = P1-P2 in affine coordinates"
+				},
+				"expMod(uint256,uint256,uint256)": {
+					"details": "Modular exponentiation, b^e % _pp. Source: https://github.com/androlo/standard-contracts/blob/master/contracts/src/crypto/ECCMath.sol",
+					"params": {
+						"_base": "base",
+						"_exp": "exponent",
+						"_pp": "modulus"
+					},
+					"return": "r such that r = b**e (mod _pp)"
+				},
+				"invMod(uint256,uint256)": {
+					"details": "Modular euclidean inverse of a number (mod p).",
+					"params": {
+						"_pp": "The modulus",
+						"_x": "The number"
+					},
+					"return": "q such that x*q = 1 (mod _pp)"
+				},
+				"isOnCurve(uint256,uint256,uint256,uint256,uint256)": {
+					"details": "Check whether point (x,y) is on curve defined by a, b, and _pp.",
+					"params": {
+						"_aa": "constant of curve",
+						"_bb": "constant of curve",
+						"_pp": "the modulus",
+						"_x": "coordinate x of P1",
+						"_y": "coordinate y of P1"
+					},
+					"return": "true if x,y in the curve, false else"
+				},
+				"toAffine(uint256,uint256,uint256,uint256)": {
+					"details": "Converts a point (x, y, z) expressed in Jacobian coordinates to affine coordinates (x', y', 1).",
+					"params": {
+						"_pp": "the modulus",
+						"_x": "coordinate x",
+						"_y": "coordinate y",
+						"_z": "coordinate z"
+					},
+					"return": "(x', y') affine coordinates"
+				}
+			},
+			"title": "Elliptic Curve Library"
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/EllipticCurve.sol": "EllipticCurve"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/EllipticCurve.sol": {
+			"keccak256": "0xbca85d47fcfa68e8d6bfd53d2c1da0a3fb0a77882b7b187020d34d6c2acbbb0d",
+			"urls": [
+				"bzz-raw://174331d50ab86ee8b95291de55014900d217e8cc900de73f22beec4876b3d2de",
+				"dweb:/ipfs/QmNxZxjfzLdSTGSxTQzCG1gTcekwHQsuSB2EhXd1z3W3YP"
+			]
+		}
+	},
+	"version": 1
+}
