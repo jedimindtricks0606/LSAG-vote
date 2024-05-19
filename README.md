@@ -1,0 +1,1 @@
+J. K. Liu, V. K. Wei, and D. S. Wong, “Linkable Spontaneous Anonymous Group Signature for Ad Hoc Groups,” in Information Security and Privacy, H. Wang, J. Pieprzyk, and V. Varadharajan, Eds., in Lecture Notes in Computer Science, vol. 3108. Berlin, Heidelberg: Springer Berlin Heidelberg, 2004, pp. 325–335. doi: 10.1007/978- 3-540-27800-9_28.
